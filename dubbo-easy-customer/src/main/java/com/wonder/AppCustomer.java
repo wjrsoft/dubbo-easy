@@ -7,7 +7,7 @@ import java.io.IOException;
 
 /**
  * Hello world!
- *
+ * 模拟调用10次接口，测试zookeeper是否有负载到多个dubbo接口
  */
 public class AppCustomer
 {
