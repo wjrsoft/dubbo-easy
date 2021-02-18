@@ -7,10 +7,10 @@ package com.wonder.core;
 public class ProviderServiceImpl implements ProviderService{
 
     public ProviderServiceImpl(){
-        System.out.println("ProviderServiceImpl init");
-    }
+            System.out.println("ProviderServiceImpl init");
+        }
 
-    public String SayHello(String word) {
+        public String SayHello(String word) {
         System.out.println("收到一个远程调用请求，请求参数："+word);
         return word;
     }
